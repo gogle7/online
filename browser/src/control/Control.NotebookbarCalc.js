@@ -949,16 +949,16 @@ L.Control.NotebookbarCalc = L.Control.NotebookbarWriter.extend({
 				'command': '.uno:Sidebar'
 			},
 			{
-				'id': 'toggleuimode',
-				'type': 'bigmenubartoolitem',
-				'text': _('Compact view'),
-				'command': _('Toggle UI Mode')
-			},
-			{
 				'id': 'showstatusbar',
 				'type': 'menubartoolitem',
 				'text': _('Status Bar'),
 				'command': _('Show Status Bar')
+			},
+			{
+				'id': 'toggleuimode',
+				'type': 'bigmenubartoolitem',
+				'text': _('Compact view'),
+				'command': _('Toggle UI Mode')
 			}
 		];
 

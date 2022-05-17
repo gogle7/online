@@ -1025,12 +1025,6 @@ L.Control.NotebookbarWriter = L.Control.Notebookbar.extend({
 				'command': '.uno:Sidebar'
 			},
 			{
-				'id': 'toggleuimode',
-				'type': 'bigmenubartoolitem',
-				'text': _('Compact view'),
-				'command': _('Toggle UI Mode')
-			},
-			{
 				'type': 'container',
 				'children': [
 					{
@@ -1057,6 +1051,12 @@ L.Control.NotebookbarWriter = L.Control.Notebookbar.extend({
 					}
 				],
 				'vertical': 'true'
+			},
+			{
+				'id': 'toggleuimode',
+				'type': 'bigmenubartoolitem',
+				'text': _('Compact view'),
+				'command': _('Toggle UI Mode')
 			}
 		];
 
